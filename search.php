@@ -1,3 +1,8 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
 <?php
 $movies = array(
 "Drama" => array("The Shawshank Redemption", "The Green Mile",
@@ -21,3 +26,5 @@ if($output === "")
 $output = "No match!";
 echo $output;
 ?>
+</body>
+</html>
